@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [TOC]
 
 # 项目介绍
@@ -169,3 +170,7 @@ $ proxy_off
    目前此项目已集成自动识别和转换clash配置文件的功能。如果依然无法使用，则需要通过自建或者第三方平台（不推荐，有泄露风险）对订阅地址转换。
    
 3. 程序日志中出现`error: unsupported rule type RULE-SET`报错，解决方法查看官方[WIKI](https://github.com/Dreamacro/clash/wiki/FAQ#error-unsupported-rule-type-rule-set)
+=======
+# Clash-for-Linux-terminal
+In cases such as remote servers, use clash
+>>>>>>> a90901625a23fe5501f90134c1d1cefb6290869c
