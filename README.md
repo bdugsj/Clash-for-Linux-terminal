@@ -2,6 +2,7 @@
 In cases such as remote servers, use clash
 
 <br>
+
 # 使用须知
 
 - 运行本项目建议使用root用户，或者使用 sudo 提权。
@@ -18,13 +19,13 @@ In cases such as remote servers, use clash
 下载项目
 
 ```bash
-$ git clone https://github.com/wanhebin/clash-for-linux.git
+$ git clone https://github.com/bdugsj/Clash-for-Linux-terminal.git
 ```
 
 进入到项目目录，编辑`.env`文件，修改变量`CLASH_URL`的值。
 
 ```bash
-$ cd clash-for-linux
+$ cd Clash-for-Linux-terminal
 $ vim .env
 ```
 
@@ -39,7 +40,7 @@ $ vim .env
 - 进入项目目录
 
 ```bash
-$ cd clash-for-linux
+$ cd Clash-for-Linux-terminal
 ```
 
 - 运行启动脚本
@@ -141,9 +142,6 @@ $ proxy_off
 
 点击Add并选择刚刚输入的管理界面地址，之后便可在浏览器上进行一些配置。
 
-- 更多教程
-
-此 Clash Dashboard 使用的是[yacd](https://github.com/haishanh/yacd)项目，详细使用方法请移步到yacd上查询。
 
 
 <br>
@@ -156,6 +154,4 @@ $ proxy_off
 
    目前此项目已集成自动识别和转换clash配置文件的功能。如果依然无法使用，则需要通过自建或者第三方平台（不推荐，有泄露风险）对订阅地址转换。
    
-3. 程序日志中出现`error: unsupported rule type RULE-SET`报错，解决方法查看官方[WIKI](https://github.com/Dreamacro/clash/wiki/FAQ#error-unsupported-rule-type-rule-set)
-=======
 
